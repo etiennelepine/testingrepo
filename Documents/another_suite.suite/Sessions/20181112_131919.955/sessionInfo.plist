@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[115, 20, 147, 51], elementName:"chrm", eventNum:2, folderPath:"", hotSpot:[128.638136, 2018.434262], imageName:"chrm", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Replace", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1811081521</integer>
+	<key>sessionType</key>
+	<string>turboSession</string>
+</dict>
+</plist>
