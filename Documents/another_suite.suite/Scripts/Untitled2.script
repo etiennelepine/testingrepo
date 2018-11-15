@@ -1,0 +1,8 @@
+﻿put the date into dateoftransaction // Stores the current date into a variable
+if dateoftransaction is between date("January 1") and date("June 30")
+then
+	put "First half" into transactionperiod
+else
+	put "Second half" into transactionperiod
+	log transactionperiod
+end if

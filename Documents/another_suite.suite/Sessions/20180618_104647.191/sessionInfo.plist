@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>4</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[2, 97, 157, 151], elementName:@"sprout", elementType:@"Checkpoint", eventNum:-1, folderPath:@"", hotSpot:[76, 28], imageName:@"sprout", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[26, 28], screenShotFile:@"Screen0002.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[340, 104, 416, 123], elementName:@"EggplantAl", elementType:@"Button", eventNum:-1, folderPath:@"", hotSpot:[378, 37.5], imageName:@"EggplantAl", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[378, 37], OCRText:@"EggplantAl", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[83, 5, 227, 43], elementName:@"Searchbox", elementType:@"Field", eventNum:-1, folderPath:@"", hotSpot:[111, 129], imageName:@"Searchbox", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[106, 124], screenShotFile:@"Screen0002.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>5</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>25</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806200902</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+</dict>
+</plist>

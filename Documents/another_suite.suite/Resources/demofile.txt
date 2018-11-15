@@ -1,0 +1,1 @@
+RefWord,English,German,French,Japanese,ChinesePRC,ArabicHello,Hello,Hallo,Bonjour,こんにちは,你好,مرحبا,Testing,Testing,Testen,essai,検査,测试,تجريب,Goodbye,Goodbye,Auf Wiedersehen,Au Revoir,さようなら,再见,وداعا,

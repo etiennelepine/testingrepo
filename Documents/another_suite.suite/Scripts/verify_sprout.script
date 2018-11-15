@@ -1,0 +1,4 @@
+﻿to handle sprout_Validate duration
+	if duration is not a number then set duration to 8
+	waitFor duration, (imageName:"sprout")
+end sprout_Validate

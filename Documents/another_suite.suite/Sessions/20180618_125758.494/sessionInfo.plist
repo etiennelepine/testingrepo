@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[410, 830, 536, 847], elementName:@"EggplantFunctional", eventNum:2, folderPath:@"", hotSpot:[455, 156], imageName:@"sprout", itemEvent:@"TurboListItemEvent_Click", itemMode:@"TurboListItemMode_Existing", itemType:@"TurboListItemType_Image", OCRHotSpot:[455, 155], OCRText:@"EggplantFunctional", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:15.615093}, {captureRect:[544.671875, 798.621094, 614.671875, 828.621094], elementName:@"image0007", eventNum:4, folderPath:@"", hotSpot:[579.671875, 179.378906], imageName:@"image0007", itemEvent:@"TurboListItemEvent_Click", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[579, 179], screenShotFile:@"Screen0004.png", skipStep:True, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[412.316406, 951.691406, 482.316406, 981.691406], elementName:@"image0010", eventNum:6, folderPath:@"", hotSpot:[447.316406, 26.308594], imageName:@"image0010", itemEvent:@"TurboListItemEvent_Click", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[447, 26], screenShotFile:@"Screen0006.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:2.612485}, {captureRect:[386.40625, 829.394531, 512.40625, 846.394531], elementName:@"EggplantFunctional_0001", eventNum:8, folderPath:@"", hotSpot:[463.40625, 154.605469], imageName:@"EggplantFunctional_0001", itemEvent:@"TurboListItemEvent_Click", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[463, 154], OCRText:@"EggplantFunctional", screenShotFile:@"Screen0008.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[362.480469, 293.214844, 450.480469, 312.214844], elementName:@"ViewTopics_0001", eventNum:10, folderPath:@"", hotSpot:[397.480469, 689.785156], imageName:@"ViewTopics_0001", itemEvent:@"TurboListItemEvent_Click", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[397, 689], OCRText:@"ViewTopics", screenShotFile:@"Screen0010.png", searchType:@"Smooth", skipStep:True, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[1036.769531, 557.121094, 1161.769531, 571.121094], elementName:@"FirstSUTConnection", eventNum:12, folderPath:@"", hotSpot:[1064.769531, 432.878906], imageName:@"FirstSUTConnection", itemEvent:@"TurboListItemEvent_Click", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[1064, 432], OCRText:@"FirstSUTConnection", screenShotFile:@"Screen0012.png", searchType:@"Smooth", skipStep:True, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[1015.570312, 534.78125, 1155.570312, 551.78125], elementName:@"OrganizingYourTesting", eventNum:14, folderPath:@"", hotSpot:[1044.570312, 451.21875], imageName:@"OrganizingYourTesting", itemEvent:@"TurboListItemEvent_Click", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[1044, 451], OCRText:@"OrganizingYourTesting", screenShotFile:@"Screen0014.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806190917</integer>
+	<key>sessionType</key>
+	<string>turboSession</string>
+</dict>
+</plist>

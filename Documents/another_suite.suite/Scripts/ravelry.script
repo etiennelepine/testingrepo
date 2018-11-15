@@ -1,0 +1,112 @@
+﻿(*** Action Script "ravelry" generated 2018-06-14 by Etienne Lepine ***)
+
+
+(* Actions for Checkpoint "logo" *)
+
+to handle logo_Validate duration
+	if duration is not a number then set duration to 8
+	waitFor duration, (imageName:"logo")
+end logo_Validate
+
+to handle logo_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"logo", waitFor:duration)
+end logo_IsFound
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Field "username1" *)
+
+to handle username1_EnterText theValue, terminator
+	// First, click in the field
+	// We assume the image or text searched for identifies the field label,
+	// so we locate the label and click to the right of it
+	set elementRect to imageRectangle(imageName:"username1")
+	set fieldHotSpot to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+	click fieldHotSpot
+	
+	// Then enter the text (assumes the field is empty)
+	typeText theValue, terminator
+	
+end username1_EnterText
+
+to handle username1_ReadText
+	// First, locate a point in the field
+	// We assume the image or text searched for identifies the field label,
+	// so we locate the label and calculate a point to the right of it
+	set elementRect to imageRectangle(imageName:"username1")
+	set fieldTextLocation to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+	
+	// Then we read the text at that location
+	set theText to readText(fieldTextLocation)
+	// any additional cleanup of the text could be done here before returning the value, such as:
+	// set theText to trim(theText) -- remove leading/trailing whitespace
+	return theText
+end username1_ReadText
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "Iforgot_0001" *)
+
+to handle Iforgot_0001_Click duration
+	if duration is not a number then set duration to 8
+	click (imageName:"Iforgot_0001", waitFor:duration)
+end Iforgot_0001_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Checkbox "rememberme_0001" *)
+
+to handle rememberme_0001_Toggle duration
+	if duration is not a number then set duration to 8
+	waitFor duration, (imageName:"rememberme_0001")
+	set elementRect to the foundImageInfo's imageRectangle
+	set checkBoxHotSpot to the center of elementRect -- assume that clicking the label itself will work
+	-- alternatively, calculate a point to the left of the label:
+	-- set checkboxHotSpot to (-30,0) + leftCenter of elementRect -- a point 30 pixels to the left of the label
+	click checkboxHotSpot
+end rememberme_0001_Toggle
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "Legin" *)
+
+to handle Legin_Click duration
+	if duration is not a number then set duration to 8
+	click (imageName:"Legin", waitFor:duration)
+end Legin_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "joinnow" *)
+
+to handle joinnow_Click duration
+	if duration is not a number then set duration to 8
+	click (imageName:"joinnow", waitFor:duration)
+end joinnow_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Checkpoint "motto" *)
+
+to handle motto_Validate duration
+	if duration is not a number then set duration to 8
+	waitFor duration, (imageName:"motto")
+end motto_Validate
+
+to handle motto_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"motto", waitFor:duration)
+end motto_IsFound
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(*** End of Action Script ravelry.script ***)
+

@@ -1,0 +1,19 @@
+﻿WebConnect host:"localhost", browser: "chrome", url: "http://www.eggplant.io"
+put the webdriver's cookies
+FindElement (webClassName:"accept")
+Click it // Clicks the WebElement object
+WaitFor 6, (webLinkText:"SUPPORT")
+MoveTo (webLinkText:"SUPPORT")
+Click (webLinkText:"DOWNLOADS")
+Wait 10
+WebDisconnect
+
+SetDeviceOrientation portrait
+
+
+
+
+
+to sayHello
+	put "Hello, friend!"
+end sayHello

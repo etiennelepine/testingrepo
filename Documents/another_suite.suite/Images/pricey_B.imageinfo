@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2018-07-02 20:48:45 +0000";
+    CaptureHost = "Flare VM";
+    CaptureScreenSize =     (
+        1792,
+        1022
+    );
+    HasAlpha = 1;
+    HotSpotX = "-23";
+    HotSpotY = "-14";
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1119;
+    OriginalLocationY = 732;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

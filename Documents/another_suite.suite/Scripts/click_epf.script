@@ -1,0 +1,4 @@
+﻿to handle EggplantFunctional_Click duration
+	if duration is not a number then set duration to 8
+	click (text:"EggplantFunctional", waitFor:duration)
+end EggplantFunctional_Click

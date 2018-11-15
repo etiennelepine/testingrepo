@@ -1,0 +1,7 @@
+﻿set var to file ResourcePath("ResponsiveList.csv")
+
+put item 2 of line 4 of var
+
+repeat with each line of line 2 to -1 of var
+	
+end repeat

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[110.519531, 799.148438, 211.519531, 828.148438], elementName:@"eggplant", eventNum:2, folderPath:@"", hotSpot:[149.519531, 212.851562], imageName:@"eggplant2", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_Existing", itemType:@"TurboListItemType_Image", OCRHotSpot:[0, 0], screenShotFile:@"Screen0001.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[599.816406, 549.214844, 684.816406, 564.214844], elementName:@"Learnmore", eventNum:3, folderPath:@"", hotSpot:[636.816406, 466.785156], imageName:@"Learnmore", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_Existing", itemType:@"TurboListItemType_Image", OCRHotSpot:[0, 0], OCRText:@"Learnmore", screenShotFile:@"Screen0001.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[545.726562, 814.617188, 1053.726562, 827.617188], elementName:@"INDUSTRIESSOLUTIONSPRODUCTSCOM", eventNum:4, folderPath:@"", hotSpot:[575.726562, 203.382812], imageName:@"INDUSTRIESSOLUTIONSPRODUCTSCOM", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_Existing", itemType:@"TurboListItemType_Image", OCRHotSpot:[0, 0], OCRText:@"INDUSTRIESSOLUTIONSPRODUCTSCOM", screenShotFile:@"Screen0001.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[545.347656, 814.101562, 717.347656, 827.101562], elementName:@"INDUSTRIESSOLUTIONS", eventNum:5, folderPath:@"", hotSpot:[685.347656, 201.898438], imageName:@"INDUSTRIESSOLUTIONS", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_Existing", itemType:@"TurboListItemType_Image", OCRHotSpot:[0, 0], OCRText:@"INDUSTRIESSOLUTIONS", screenShotFile:@"Screen0001.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806200902</integer>
+	<key>sessionType</key>
+	<string>rapidSession</string>
+</dict>
+</plist>

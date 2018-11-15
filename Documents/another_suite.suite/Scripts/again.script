@@ -1,0 +1,11 @@
+(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2018-06-18 12:59:39
+  From session:  again
+  Captured on:  2018-06-18 12:57:58
+  From server:  FlareVM
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+Click (Image:"EggplantFunctional", WaitFor:15.615093)
+Click (Image:"image0010", WaitFor:2.612485)
+Click "EggplantFunctional_0001"
+Click "OrganizingYourTesting"

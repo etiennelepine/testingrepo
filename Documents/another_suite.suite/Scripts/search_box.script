@@ -1,0 +1,12 @@
+﻿to handle Searchbox_EnterText theValue, terminator
+	// First, click in the field
+	// We assume the image or text searched for identifies the field label,
+	// so we locate the label and click to the right of it
+	set elementRect to imageRectangle(imageName:"Searchbox")
+	set fieldHotSpot to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+	click fieldHotSpot
+	
+	// Then enter the text (assumes the field is empty)
+	typeText theValue, terminator
+	
+end Searchbox_EnterText

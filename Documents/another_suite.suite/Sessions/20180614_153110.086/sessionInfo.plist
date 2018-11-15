@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[123, 10, 299, 46], elementName:@"logo", elementType:@"Checkpoint", eventNum:2, folderPath:@"/", hotSpot:[211, 308], imageName:@"logo", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[211, 308], screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:0}, {captureRect:[17, 154, 295, 192], elementName:@"username1", elementType:@"Field", eventNum:2, folderPath:@"/", hotSpot:[156, 163], imageName:@"username1", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[156, 163], screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:0}, {captureRect:[17, 110, 295, 148], elementName:@"password1", eventNum:2, folderPath:@"/", hotSpot:[156, 207], imageName:@"password1", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[0, 0], screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:0}, {captureRect:[23, 84, 72, 101], elementName:@"Iforgot_0001", elementType:@"Button", eventNum:2, folderPath:@"/", hotSpot:[47.5, 243.5], imageName:@"Iforgot_0001", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[24, 8], OCRText:@"I forgot", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:0}, {captureRect:[109, 86, 217, 105], elementName:@"rememberme_0001", elementType:@"Checkbox", eventNum:2, folderPath:@"/", hotSpot:[163, 240.5], imageName:@"rememberme_0001", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[54, 9], OCRText:@"remember me", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:0}, {captureRect:[222, 77, 292, 108], elementName:@"Legin", elementType:@"Button", eventNum:2, folderPath:@"/", hotSpot:[257, 243.5], imageName:@"Legin", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[35, 15], OCRText:@"Leg in", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:0}, {captureRect:[18, 4, 118, 47], elementName:@"joinnow", elementType:@"Button", eventNum:2, folderPath:@"/", hotSpot:[68, 310.5], imageName:@"joinnow", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[50, 21], OCRText:@"join now!", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:0}, {captureRect:[123, 10, 299, 46], elementName:@"motto", elementType:@"Checkpoint", eventNum:2, folderPath:@"/", hotSpot:[211, 308], imageName:@"motto", itemEvent:@"TurboListItemEvent_UNKNOWN", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[0, 0], screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:0}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806180201</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+</dict>
+</plist>

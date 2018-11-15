@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[11, 410, 158, 461], elementName:@"eggo", eventNum:-1, folderPath:@"", hotSpot:[82, 26], imageName:@"eggo1", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[31, 30], screenShotFile:@"Screen0002.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[190, 412, 319, 431], elementName:@"EggplantFunctional", eventNum:-1, folderPath:@"", hotSpot:[254.5, 39.5], imageName:@"EggplantFunctional_0002", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[254, 39], OCRText:@"EggplantFunctional", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[345, 412, 421, 431], elementName:@"EggplantAl", eventNum:-1, folderPath:@"", hotSpot:[383, 39.5], imageName:@"EggplantAl_0001", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[383, 39], OCRText:@"EggplantAl", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[447, 412, 565, 431], elementName:@"EggplantManager", eventNum:-1, folderPath:@"", hotSpot:[506, 39.5], imageName:@"EggplantManager", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[506, 39], OCRText:@"EggplantManager", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[96, 321, 115, 340], elementName:@"searchy", elementType:@"Button", eventNum:-1, folderPath:@"", hotSpot:[105.5, 130.5], imageName:@"searchy", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[105, 130], screenShotFile:@"Screen0002.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[121, 326, 165, 337], elementName:@"Search", elementType:@"Field", eventNum:-1, folderPath:@"", hotSpot:[143, 129.5], imageName:@"Search", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[103, 131], OCRText:@"Search", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806190917</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[125, 795, 139, 833], character:"e", elementName:"lower_e", eventNum:2, folderPath:"", hotSpot:[119.082031, 211], imageName:"lower_e", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[119.082031, 211], screenShotFile:"Screen0001.png", searchType:"Tolerant", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:3, folderPath:"", hotSpot:[130.945312, 207.40625], imageName:"", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[0, 0], screenShotFile:"Screen0001.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:4, folderPath:"", hotSpot:[146.257812, 209.496094], imageName:"", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[0, 0], screenShotFile:"Screen0001.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:5, folderPath:"", hotSpot:[159.53125, 210.070312], imageName:"", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[0, 0], screenShotFile:"Screen0001.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:6, folderPath:"", hotSpot:[171.519531, 209.234375], imageName:"", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[0, 0], screenShotFile:"Screen0001.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:7, folderPath:"", hotSpot:[182.589844, 208.34375], imageName:"", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[0, 0], screenShotFile:"Screen0001.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:8, folderPath:"", hotSpot:[197.101562, 204.757812], imageName:"", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[0, 0], screenShotFile:"Screen0001.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:9, folderPath:"", hotSpot:[207.128906, 209.535156], imageName:"", itemEvent:"TurboListItemEvent_Character", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Character", OCRHotSpot:[0, 0], screenShotFile:"Screen0001.png", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806250917</integer>
+	<key>sessionType</key>
+	<string>characterCollection</string>
+</dict>
+</plist>

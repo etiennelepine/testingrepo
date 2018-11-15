@@ -1,0 +1,23 @@
+﻿(*** Autosnippet script "new" generated 2018-06-28 by Etienne Lepine. Keep comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Checkpoint "sprout" *)
+
+to handle sprout_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"sprout"
+end sprout_Validate
+
+to handle sprout_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"sprout", waitFor:duration)
+end sprout_IsFound
+
+-----------------------------------
+
+
+(*** End of Autosnippet script new.script ***)
+

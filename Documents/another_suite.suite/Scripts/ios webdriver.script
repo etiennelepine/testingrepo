@@ -1,0 +1,72 @@
+﻿SetDeviceLocation(40.021824,-105.2473129)
+
+set driver to WebDriver(host:"localhost", port: "8106", name: "iphone7", platformName: "iOS", bundleId: "com.testplant.YetAnotherSampleApp")
+
+set driver to WebDriver(host:"localhost", port: "8200", name: "iphone6plus", platformName: "iOS", bundleId: "com.testplant.YetAnotherSampleApp")
+
+put WebDriver() // Returns information about the active WebDriver connection
+
+put FindElement(WebDriver: "iphone6plus", webName: "Map")
+
+WebConnect (host:"localhost", port: "8106", name: "iphone7", platformName: "iOS", bundleId: "com.testplant.YetAnotherSampleApp")
+
+WebConnect (host:"localhost", port: "8200", name: "iphone6plus", platformName: "iOS", bundleId: "com.testplant.YetAnotherSampleApp")
+
+put WebDriver()
+
+put GetDeviceOrientation()
+SetDeviceOrientation Landscape
+put GetDeviceOrientation()
+SetDeviceOrientation LandscapeRight
+put GetDeviceOrientation()
+SetDeviceOrientation PortraitUpsideDown //command accepted, but if hardware or app doesn't support this orientation, it doesn't return an error because it's still a viable command. remains at the previous stats
+put GetDeviceOrientation()
+SetDeviceOrientation Portrait
+put GetDeviceOrientation() // Returns the orientation of the device screen
+
+WebScreenshot "shot1"
+WebScreenshot "/Users/etienne/Desktop/shot5"
+
+SwipeLeft
+
+
+SwipeUp(webClassName: "XCUIElementTypeMap")
+SwipeDown(webClassName: "XCUIElementTypeMap")
+SwipeLeft(webClassName: "XCUIElementTypeMap")
+SwipeRIght(webClassName: "XCUIElementTypeMap")
+
+put FindElement(WebDriver: "iphone7", webClassName: "XCUIElementTypeMap")
+
+Tap (webName: "Map") // Locates the "Map" element and taps it
+Tap(webName: "Gestures")
+Tap(webName: "Video")
+Tap(webName: "Image Two")
+Tap(webName: "Image One")
+
+SwipeUp (webName: "Objects")
+
+
+FindElement(webName: "Enter Text Field")
+
+
+Tap(webName: "More")
+Tap(webName: "Objects")
+
+set textField to findElement (webName: "Enter Text Field") // Creates the variable textField containing the element with the WebName "Enter Text Field" 
+ClearKeys textField
+SendKeys textField, "A nod's as good as a wink to a blind bat"
+Tap (webName: "Submit Button")
+
+ClearKeys
+
+ClearKeys (webName: "Enter Text Field") // Clears text from the element with the webName "Enter Text Field"
+
+put textField's value
+Click(webName: "Submit Button")
+
+WebDisconnect all
+
+SendKeys "Hello World!"
+put "Device rotated to " & GetDeviceOrientation()
+
+DoubleTap (webClassName: "XCUIElementTypeMap") // Locates the "XCUIElementTypeMap" element and executes a double-tap

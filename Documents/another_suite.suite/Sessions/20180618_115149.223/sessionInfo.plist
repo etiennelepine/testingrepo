@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[28, 513, 47, 532], elementName:@"search", elementType:@"Field", eventNum:-1, folderPath:@"", hotSpot:[37.5, 36.5], imageName:@"search", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[37, 36], screenShotFile:@"Screen0002.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[78, 173, 213, 197], elementName:@"Getting", eventNum:-1, folderPath:@"", hotSpot:[145, 374], imageName:@"Getting", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[145, 374], OCRText:@"Getting", ocrTextSettings:(:), screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[353, 173, 539, 197], elementName:@"Installing", eventNum:-1, folderPath:@"", hotSpot:[446, 374], imageName:@"Installing", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[392, 374], screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[24, 94, 269, 139], elementName:@"Theinformationyou", eventNum:-1, folderPath:@"", hotSpot:[146, 443], imageName:@"Theinformationyou", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[97, 430], OCRText:@"Theinformationyou", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[332, 94, 557, 139], elementName:@"Information", eventNum:-1, folderPath:@"", hotSpot:[444, 443], imageName:@"Information", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[373, 429], screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[401, 28, 488, 47], elementName:@"ViewTopics", eventNum:-1, folderPath:@"", hotSpot:[442, 523], imageName:@"ViewTopics", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[444, 523], OCRText:@"ViewTopics", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[307, 373, 563, 427], elementName:@"image0009", elementType:@"Checkpoint", eventNum:-1, folderPath:@"", hotSpot:[433, 160], imageName:@"ViewTopics", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_Existing", itemType:@"TurboListItemType_Image", OCRHotSpot:[323, 138], screenShotFile:@"Screen0002.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806190917</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+</dict>
+</plist>

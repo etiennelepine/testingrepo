@@ -1,0 +1,26 @@
+﻿params MyWord
+
+put ResourcePath("demofile.txt") into FilePath
+
+repeat with each item MyItem of firstline
+	
+	if MyItem = global MyLanguage
+		put repeatindex() into MyColumn
+	end if
+end repeat
+
+repeat with each line of file FilePath
+	
+	if item 1 of it = MyWord
+		put repeatindex() into MyRow
+	end if
+end repeat
+
+log "Trying to find" && item MyColumn of line MyRow of file FilePath
+
+return ImageLocation (Text:item MyColumn of line MyRow of file FilePath, Language:global MyLanguage)
+
+
+put ReadText("wunder logo", EnhanceLocalContrast:yes)
+
+EnhanceLocalContrast

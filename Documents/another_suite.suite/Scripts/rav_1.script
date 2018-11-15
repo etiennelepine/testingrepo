@@ -1,0 +1,68 @@
+(*** Action Script "rav_1" generated 2018-06-19 by Etienne Lepine ***)
+
+
+(* Actions for Field "Search box" *)
+
+to handle Search_box_EnterText theValue, terminator
+    // First, click in the field
+    // We assume the image or text searched for identifies the field label,
+    // so we locate the label and click to the right of it
+    set elementRect to imageRectangle(imageName:"Search box")
+    set fieldHotSpot to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+    click fieldHotSpot
+
+    // Then enter the text (assumes the field is empty)
+    typeText theValue, terminator
+
+end Search_box_EnterText
+
+to handle Search_box_ReadText
+    // First, locate a point in the field
+    // We assume the image or text searched for identifies the field label,
+    // so we locate the label and calculate a point to the right of it
+    set elementRect to imageRectangle(imageName:"Search box")
+    set fieldTextLocation to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+
+    // Then we read the text at that location
+    set theText to readText(fieldTextLocation)
+    // any additional cleanup of the text could be done here before returning the value, such as:
+    // set theText to trim(theText) -- remove leading/trailing whitespace
+    return theText
+end Search_box_ReadText
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for DropDown "Patterns" *)
+
+to handle Patterns_SelectItem itemName
+    // Pop up the list by clicking it
+    set rect to imageRectangle(imageName:"Patterns")
+    click the center of rect
+
+    // Dropdown menu lists can be wider than the dropdown menu label
+    // Look for the desired item in a rect that extends a bit above and to the left
+    // of the dropdown itself, plus a generous margin to the right and all the way down
+    set searchLeft to (the left of rect - 30) but no less than 0
+    set searchRight to (the right of rect + 200) but no more than the right of the remoteScreenRectangle
+    set searchTop to (the top of rect - 30) but no less than 0
+    set searchBottom to the bottom of the remoteScreenRectangle
+
+    click (text:itemName, searchRectangle:(searchLeft, searchTop, searchRight, searchBottom))
+end Patterns_SelectItem
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "Search" *)
+
+to handle Search_Click duration
+    if duration is not a number then set duration to 8
+    click (imageName:"Search", waitFor:duration)
+end Search_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(*** End of Action Script rav_1.script ***)
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[212, 315, 281, 333], elementName:@"MODELS", elementType:@"Button", eventNum:-1, folderPath:@"", hotSpot:[246.5, 22], imageName:@"MODELS", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_OcrText", OCRHotSpot:[246, 22], OCRText:@"MODELS", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[294, 315, 364, 333], elementName:@"MODELX", eventNum:-1, folderPath:@"", hotSpot:[329, 22], imageName:@"MODELX", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[329, 22], OCRText:@"MODELX", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[376, 314, 445, 333], elementName:@"MODEL3", elementType:@"Button", eventNum:-1, folderPath:@"", hotSpot:[410.5, 22.5], imageName:@"MODEL3", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[410, 22], OCRText:@"MODEL3", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[458, 314, 540, 333], elementName:@"image0006", eventNum:-1, folderPath:@"", hotSpot:[499, 22.5], imageName:@"Roadster", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[499, 22], screenShotFile:@"Screen0002.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[552, 314, 616, 333], elementName:@"ENERGY", eventNum:-1, folderPath:@"", hotSpot:[584, 22.5], imageName:@"ENERGY", itemEvent:@"TurboListItemEvent_CaptureImage", itemMode:@"TurboListItemMode_Replace", itemType:@"TurboListItemType_Image", OCRHotSpot:[584, 22], OCRText:@"ENERGY", screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[195, 184, 643, 240], elementName:@"ORDERYOURS", elementType:@"Checkpoint", eventNum:-1, folderPath:@"", hotSpot:[416, 135], imageName:@"ORDERYOURS", itemEvent:@"TurboListItemEvent_Element", itemMode:@"TurboListItemMode_New", itemType:@"TurboListItemType_Image", OCRHotSpot:[416, 135], OCRText:@"ORDERYOURS", ocrTextSettings:(:), screenShotFile:@"Screen0002.png", searchType:@"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806180201</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+</dict>
+</plist>

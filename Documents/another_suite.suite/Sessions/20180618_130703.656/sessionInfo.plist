@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[843, 541, 904, 595], elementName:"red sweater", eventNum:2, folderPath:"", hotSpot:[868, 439], imageName:"red sweater", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_Replace", itemType:"TurboListItemType_Image", OCRHotSpot:[868, 438], screenShotFile:"Screen0001.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[930, 558, 977, 587], elementName:"grey hat", eventNum:3, folderPath:"", hotSpot:[966, 445], imageName:"grey hat", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_Replace", itemType:"TurboListItemType_Image", OCRHotSpot:[966, 444], screenShotFile:"Screen0001.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[433, 271, 560, 361], elementName:"tealsox", eventNum:4, folderPath:"", hotSpot:[498, 639], imageName:"tealsox", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Image", OCRHotSpot:[498, 638], screenShotFile:"Screen0001.png", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[92, 842.820312, 223, 876.820312], elementName:"ravelry_logo", eventNum:5, folderPath:"", hotSpot:[116.902344, 137.179688], imageName:"ravelry_logo", itemEvent:"TurboListItemEvent_CaptureImage", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_Image", OCRHotSpot:[116, 137], OCRText:"Qravelry", screenShotFile:"Screen0001.png", searchType:"Smooth", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>1806250917</integer>
+	<key>sessionType</key>
+	<string>rapidSession</string>
+</dict>
+</plist>

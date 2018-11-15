@@ -1,0 +1,129 @@
+(*** Action Script "rav" generated 2018-06-12 by Etienne Lepine ***)
+
+
+(* Actions for Field "Username" *)
+
+to handle Username_EnterText theValue, terminator
+    // First, click in the field
+    // We assume the image or text searched for identifies the field label,
+    // so we locate the label and click to the right of it
+    set elementRect to imageRectangle(imageName:"Username")
+    set fieldHotSpot to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+    click fieldHotSpot
+
+    // Then enter the text (assumes the field is empty)
+    typeText theValue, terminator
+
+end Username_EnterText
+
+to handle Username_ReadText
+    // First, locate a point in the field
+    // We assume the image or text searched for identifies the field label,
+    // so we locate the label and calculate a point to the right of it
+    set elementRect to imageRectangle(imageName:"Username")
+    set fieldTextLocation to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+
+    // Then we read the text at that location
+    set theText to readText(fieldTextLocation)
+    // any additional cleanup of the text could be done here before returning the value, such as:
+    // set theText to trim(theText) -- remove leading/trailing whitespace
+    return theText
+end Username_ReadText
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Field "Password" *)
+
+to handle Password_EnterText theValue, terminator
+    // First, click in the field
+    // We assume the image or text searched for identifies the field label,
+    // so we locate the label and click to the right of it
+    set elementRect to imageRectangle(imageName:"Password")
+    set fieldHotSpot to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+    click fieldHotSpot
+
+    // Then enter the text (assumes the field is empty)
+    typeText theValue, terminator
+
+end Password_EnterText
+
+to handle Password_ReadText
+    // First, locate a point in the field
+    // We assume the image or text searched for identifies the field label,
+    // so we locate the label and calculate a point to the right of it
+    set elementRect to imageRectangle(imageName:"Password")
+    set fieldTextLocation to (30,0) + rightCenter of elementRect -- a point 30 pixels to the right of the label
+
+    // Then we read the text at that location
+    set theText to readText(fieldTextLocation)
+    // any additional cleanup of the text could be done here before returning the value, such as:
+    // set theText to trim(theText) -- remove leading/trailing whitespace
+    return theText
+end Password_ReadText
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "Iforgot" *)
+
+to handle Iforgot_Click duration
+    if duration is not a number then set duration to 8
+    click (imageName:"Iforgot", waitFor:duration)
+end Iforgot_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Checkbox "rememberme" *)
+
+to handle rememberme_Toggle duration
+    if duration is not a number then set duration to 8
+    waitFor duration, (imageName:"rememberme")
+    set elementRect to the foundImageInfo's imageRectangle
+    set checkBoxHotSpot to the center of elementRect -- assume that clicking the label itself will work
+    -- alternatively, calculate a point to the left of the label:
+    -- set checkboxHotSpot to (-30,0) + leftCenter of elementRect -- a point 30 pixels to the left of the label
+    click checkboxHotSpot
+end rememberme_Toggle
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "Login" *)
+
+to handle Login_Click duration
+    if duration is not a number then set duration to 8
+    click (imageName:"Login", waitFor:duration)
+end Login_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "join now" *)
+
+to handle join_now_Click duration
+    if duration is not a number then set duration to 8
+    click (imageName:"join now", waitFor:duration)
+end join_now_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Checkpoint "Rav message" *)
+
+to handle Rav_message_Validate duration
+    if duration is not a number then set duration to 8
+    waitFor duration, (imageName:"Rav message")
+end Rav_message_Validate
+
+to handle Rav_message_IsFound duration
+    if duration is not a number then set duration to 8
+    return imageFound(imageName:"Rav message", waitFor:duration)
+end Rav_message_IsFound
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(*** End of Action Script rav.script ***)
+

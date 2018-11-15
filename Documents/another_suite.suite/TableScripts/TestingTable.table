@@ -1,0 +1,10 @@
+<?xml version="1.0"?><TableScript xmlns="http://www.testplant.com/xmlns/TableScript/2014">
+<Lines>
+<Line><Action>Connect</Action><Arguments>Flare VM</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>Click</Action><Arguments>krom</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>WaitFor</Action><Arguments>8, "sprout.png"</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>search_box</Action><Arguments>[@Searchbox]</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>Click</Action><Arguments>"EggplantFunctional.png"</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>verify_sprout</Action><Arguments></Arguments><ExpectedValueExpression>sprout.png</ExpectedValueExpression><Comment></Comment></Line>
+</Lines>
+</TableScript>

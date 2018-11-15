@@ -1,0 +1,29 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2018-07-09 13:30:31
+  From session:  train me
+  Captured on:  2018-07-09 13:24:49
+  From server:  FlareVM
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+set the usabilityMode to true
+Click "krom"
+Click "address"
+TypeText "nopcommerce.testplant.com",Return
+ScrollWheelDown "7"
+Click "HTCOne"
+Click "ADDTOCART"
+Click "ShopCart"
+Click "closeit"
+
+
+
+
+usability_delayToCheckForFeedback
+usability_delayToCheckForImageMovement
+usability_feedbackSensitivity
+usability_LoadTimeWarning
+usability_timeBetweenForbiddenCheck
+usabilityMode
+
+
+put "March 15" - 1 calQtr

@@ -1,0 +1,40 @@
+﻿(*** Action Script "tesla" generated 2018-06-18 by Etienne Lepine ***)
+
+
+(* Actions for Button "MODELS" (using OCR) *)
+
+to handle MODELS_Click duration
+	if duration is not a number then set duration to 8
+	click (text:"MODELS", waitFor:duration)
+end MODELS_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Button "MODEL3" *)
+
+to handle MODEL3_Click duration
+	if duration is not a number then set duration to 8
+	click (imageName:"MODEL3", waitFor:duration)
+end MODEL3_Click
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(* Actions for Checkpoint "ORDERYOURS" *)
+
+to handle ORDERYOURS_Validate duration
+	if duration is not a number then set duration to 8
+	waitFor duration, (imageName:"ORDERYOURS")
+end ORDERYOURS_Validate
+
+to handle ORDERYOURS_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"ORDERYOURS", waitFor:duration)
+end ORDERYOURS_IsFound
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+
+
+(*** End of Action Script tesla.script ***)
+

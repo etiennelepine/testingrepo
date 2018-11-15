@@ -1,0 +1,62 @@
+(*** Autosnippet script "AMZANDHOME" generated 2018-07-06 by Peter Cherns. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Button "Menu" *)
+
+to handle Menu_Click
+    Click imageName:"Menu", waitFor:8
+end Menu_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Basket" *)
+
+to handle Basket_Click
+    Click imageName:"Basket", waitFor:8
+end Basket_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "mme" *)
+
+to handle mme_Click
+    Click imageName:"mme", waitFor:8
+end mme_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Fresh" *)
+
+to handle Fresh_Click
+    Click imageName:"Fresh", waitFor:8
+end Fresh_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Vide" *)
+
+to handle Vide_Click
+    Click imageName:"Vide", waitFor:8
+end Vide_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Mus" *)
+
+to handle Mus_Click
+    Click imageName:"Mus", waitFor:8
+end Mus_Click
+
+-----------------------------------
+
+
+(*** End of Autosnippet script AMZANDHOME.script ***)
+

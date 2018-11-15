@@ -1,0 +1,14 @@
+﻿set the throwExceptionResults to false
+
+set myProcessPath to "bad/process/path"
+
+open process myProcessPath // Fails as the process launch path is invalid, but doesn't create an error
+
+set myResult to result() // Stores the result in a variable
+
+put myResult
+
+if myResult contains "launch path ("&myProcessPath&") not valid" then
+	
+	LogWarning myResult // Logs 'STProcessException: NSTask - launch path (bad/process/path) not valid'
+end if

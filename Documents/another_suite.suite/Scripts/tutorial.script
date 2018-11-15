@@ -1,0 +1,16 @@
+﻿Connect "FlareVM"
+
+
+Click "chrm"
+
+TypeText ControlKey, "n"
+Click "url"
+
+TypeText "nopcommerce.testplant.com",enter
+Click (Image:"Electronics_0003", WaitFor:27.726387)
+Click "elec_image"
+KeyDown spacebar
+Put readtext ("applecam_A","applecam_B") into thingy
+Put thingy
+
+log thingy
