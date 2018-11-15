@@ -1,0 +1,6 @@
+﻿Repeat 100 times
+	WebConnect host:"localhost", port:"8100", platformName: "iOS", bundleId: "com.testplant.YetAnotherSampleApp"
+	wait 2
+	webdisconnect
+	log the counter
+End Repeat

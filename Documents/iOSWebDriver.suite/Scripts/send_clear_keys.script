@@ -1,0 +1,8 @@
+﻿Click(webName: "More")
+Click(webName: "Objects")
+Click (webName: "Enter Text Field")
+SendKeys "Hello I'm some text."
+Click(webName: "Submit Button")
+ClearKeys (webName:"Enter Text Field")
+//How do I comfirm that the text has displayed?
+// How do I get out of Text Editor view using the object based testing?

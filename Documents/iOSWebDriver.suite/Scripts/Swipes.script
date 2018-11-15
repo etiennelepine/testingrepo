@@ -1,0 +1,8 @@
+﻿wait 2
+SwipeUp(webClassName: "XCUIElementTypeMap")
+wait 3
+SwipeDown(webClassName: "XCUIElementTypeMap")
+wait 3
+SwipeLeft(webClassName: "XCUIElementTypeMap")
+wait 3
+SwipeRIght(webClassName: "XCUIElementTypeMap")

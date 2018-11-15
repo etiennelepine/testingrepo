@@ -1,0 +1,15 @@
+﻿params VerifyText
+log VerifyText
+
+If findElements(webID: "Map")
+	LogSuccess "Element was verified." && VerifyText
+else
+	LogError "Element was not verified." && VerifyText
+﻿
+params wid
+
+If findElements(webName: WID) 
+	LogSuccess "Element was verified."
+else
+	LogError "Element was not verified."
+end If

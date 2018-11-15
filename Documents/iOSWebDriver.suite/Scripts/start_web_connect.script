@@ -1,0 +1,22 @@
+﻿
+(*WebConnect platformName: "iOS", host: "localhost", port: "8100", bundleId: "com.testplant.YetAnotherSampleApp"
+
+Connect serverID:"10.1.11.72", portNum:5900*)
+
+(*wait 3*)
+
+WebConnect platformName: "iOS", host: "localhost", port: "8100", bundleId: "com.testplant.YetAnotherSampleApp"
+(*
+wait 2
+Connect serverID:"localhost", portNum:5901
+﻿(*WebConnect platformName: "iOS", host: "localhost", port: "8100", bundleId: "com.testplant.YetAnotherSampleApp"
+
+Connect serverID:"10.1.11.72", portNum:5900*)
+
+WebConnect platformName: "iOS", host: "localhost", port: "8100", bundleId: "com.testplant.YetAnotherSampleApp"
+
+Connect serverID:"localhost", portNum:5900
+
+Connect serverID:"localhost", portNum:5900
+*)
+//webdisconnect

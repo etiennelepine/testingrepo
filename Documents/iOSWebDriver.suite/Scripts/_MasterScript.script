@@ -1,0 +1,34 @@
+﻿set successList to empty
+set failureList to empty
+set scriptList to (start_web_connect, click_test, swipes, orientations, double_clicks)
+
+repeat for each myScript of scriptList
+	RunWithNewResults myScript
+	set myResult to the result
+	
+	if myResult.status is "Success"
+		insert myScript after successList
+	else
+		insert myScript & ":" && myResult.ErrorMessage after failureList
+	end if
+end repeat
+
+Log "Successful tests:" && successList
+
+if failureList is not empty
+	LogError "Failed tests:" && failureList
+	set subject to "iOS Object Test Failed"
+else
+	set failureList to "None"
+	set subject to "iOS Object Test Passed"
+end if
+
+join successList using Return
+join failureList using Return 
+
+try set testDevice to SutInfo()
+
+set body to "Date/Time:" && now & Return & Return & "Successful tests:" & Return & successList & Return & Return & "Failed tests:" & Return & failureList & Return & Return & "Test Device:" & Return & testDevice
+Sendmail (to:"vikram.singhal@testplant.com", subject: subject, body: body, smtp_host: "smtp.gmail.com", smtp_user:"systems@testplant.com", smtp_password:"3ggPlan3t", smtp_type: "auto", From:"iOS Object Test <test@testplant.com>", smtp_transport:"TLS")
+
+WebDisconnect

@@ -1,0 +1,28 @@
+﻿Repeat
+	//Vikram 9.3.5
+	WebConnect host:"localhost", port:"8100", platformName:"iOS", bundleId:"com.testplant.YetAnotherSampleApp"
+	wait 2
+	webDisconnect
+	wait 2
+	//iPhone-6-Plus-11.4
+	WebConnect host:"localhost", port:"8200", platformName:"iOS", bundleId:"com.testplant.YetAnotherSampleApp"
+	wait 2
+	webDisconnect
+	wait 2
+	//iPhone6-11.0.2
+	WebConnect host:"localhost", port:"8300", platformName:"iOS", bundleId:"com.testplant.YetAnotherSampleApp"
+	wait 2
+	webDisconnect
+	wait 2
+	//iPhoneSE-10.3.2
+	WebConnect host:"localhost", port:"8400", platformName:"iOS", bundleId:"com.testplant.YetAnotherSampleApp"
+	wait 2
+	webDisconnect
+	wait 2
+	//JapanseiPhone 11.0.2
+	WebConnect host:"localhost", port:"8500", platformName:"iOS", bundleId:"com.testplant.YetAnotherSampleApp"
+	wait 2
+	webDisconnect
+	wait 2
+	log the counter
+End Repeat

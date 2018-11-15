@@ -1,0 +1,14 @@
+﻿put RemoteScreenSize()
+
+WebConnect host: "localhost", port: "8100", platformName: "iOS", bundleId: "com.testplant.YetAnotherSampleApp"
+
+touchAction( [ (longPress: (x: 500, y: 500)), (wait: (duration: 3)), (moveTo: (x: 500, y: 250)) ] )
+
+
+
+WebConnect platformName: "iOS", host: "10.1.11.241", port: "8100", bundleId: "com.testplant.YetAnotherSampleApp"
+
+webdisconnect
+
+
+log "tall and tan and young and lovely \n the girl from ipanema goes walking"

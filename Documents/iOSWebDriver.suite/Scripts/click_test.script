@@ -1,0 +1,22 @@
+﻿(*
+Click (webName: "Map")
+set textLabel to findElement(webname: "Legal")
+log textLabel's text 
+Click (webName: "Text Editor")
+Click (webName: "Text View")
+set textLabel to findElement(webname: "Return")
+log textLabel's text 
+SwipeDown(webClassName: "XCUIElementTypeTextView")
+Click (webName: "Video")
+Click (webName: "Gestures")
+*)
+
+
+(*
+Put SutInfo().device_type into what_device
+if what_device is not equal to "iPad Pro (12.9 inch)"
+	iPhone_script
+else
+	iPad_script
+end if
+*)
