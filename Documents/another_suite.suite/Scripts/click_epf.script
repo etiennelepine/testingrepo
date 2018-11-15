@@ -4,3 +4,5 @@
 end EggplantFunctional_Click
 
 put the date
+put the time
+

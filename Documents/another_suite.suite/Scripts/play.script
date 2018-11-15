@@ -17,3 +17,5 @@ SetDeviceOrientation portrait
 to sayHello
 	put "Hello, friend!"
 end sayHello
+
+put the time
